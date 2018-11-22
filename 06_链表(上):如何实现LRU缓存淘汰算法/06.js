@@ -118,8 +118,7 @@
  }
 
 
-
- var list = new LinkedList();
+ let list = new LinkedList();
 
  list.push(0).push(1).push(2).push(3).push(4)
 
