@@ -117,8 +117,8 @@ var mergeTwoLists = function(l1, l2) {
 
 //4.删除链表倒数第n个结点
 /**
- * 19.
- * https://leetcode-cn.com/problems/linked-list-cycle/solution/
+ * 19. 删除链表的倒数第N个节点
+ * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
@@ -126,9 +126,35 @@ var mergeTwoLists = function(l1, l2) {
  * }
  */
 
+/**
+ * @param {ListNode} head
+ * @param {number} n
+ * @return {ListNode}
+ */
+var removeNthFromEnd = function(head, n) {
+
+    var dummyHead = new ListNode(0);
+    dummyHead.next = head;
+
+    var first = dummyHead;
+    var second = dummyHead;
+
+    for(var i = 1; i <= n+1; i++) {
+        first = first.next;
+    }
+    while(first !== null) {
+        first = first.next;
+        second = second.next;
+    }
+    second.next = second.next.next;
+
+    return  dummyHead.next;
+
+};
+
 //5.求链表的中间结点
 /**
- * 876.
+ * 876. Middle of the Linked List
  * https://leetcode-cn.com/problems/linked-list-cycle/solution/
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -136,3 +162,18 @@ var mergeTwoLists = function(l1, l2) {
  *     this.next = null;
  * }
  */
+var middleNode = function(head) {
+
+    if (head == null || head.next === null) return head; //这一行可以去掉
+
+    var fast = head;
+    var slow = head;
+
+    while (fast!==null && fast.next!=null){
+        fast = fast.next.next;
+        slow = slow.next;
+    }
+
+    return slow;
+
+};
