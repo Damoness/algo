@@ -1,143 +1,188 @@
 //反转一个单链表。
 
- function ListNode(val) {
-     this.val = val;
-     this.next = null;
- }
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
 
 
- class LinkedList {
+class LinkedList {
 
-     constructor(){
-         this.head = new ListNode('head');
-     }
+    constructor(){
+        this.head = new ListNode('head');
+    }
 
-     /**
-      * 根据值来查找链表
-      * @param val :
-      * @returns {*} 查找到获取链表,查找不到返回null
-      */
-     findByValue(val){
+    /**
+     * 根据值来查找链表
+     * @param val :
+        * @returns {*} 查找到获取链表,查找不到返回null
+     */
+    findByValue(val){
 
-         let currentNode = this.head.next;
+        let currentNode = this.head.next;
 
-         while (currentNode!==null){
+        while (currentNode!==null){
 
-             if (currentNode.val===val){
-                 console.log(currentNode);
-                 return currentNode;
-             }
-             currentNode = currentNode.next;
-         }
-         console.log('没找到');
-         return null;
-     }
-
-
-     /**
-      * 根据index查找节点
-      * @param index
-      * @returns {null}
-      */
-     findByIndex(index){
-
-         let currentNode = this.head;
-
-         if (index<0) return null; //小于0返回null
-
-         while (currentNode !==null && index>=0){
-
-             currentNode = currentNode.next;
-             index--;
-         }
-
-         return currentNode;
-     }
-
-     /**
-      * 打印链表
-      */
-     print(){
-
-         let currentNode = this.head;
-
-         let str ='';
-
-         while (currentNode !== null){
-             str +=`${currentNode.val}-->`;
-             currentNode = currentNode.next;
-         }
-
-         console.log(str+'null');
-
-     }
-
-     /**
-      * 插入新增在index后面
-      * @param newVal
-      * @param index
-      */
-     insert(newVal,index){
-
-         const currentNode = this.findByIndex(index);
-
-         if (currentNode!==null){
-
-             const  newNode = new ListNode(newVal);
-             newNode.next = currentNode.next;
-             currentNode.next = newNode;
+            if (currentNode.val===val){
+                console.log(currentNode);
+                return currentNode;
+            }
+            currentNode = currentNode.next;
+        }
+        console.log('没找到');
+        return null;
+    }
 
 
-         } else {
+    /**
+     * 根据index查找节点
+     * @param index
+     * @returns {null}
+     */
+    findByIndex(index){
 
-             console.log('未找到插入位置')
-             return
-         }
+        let currentNode = this.head;
 
-     }
+        if (index<0) return null; //小于0返回null
 
-     /**
-      * 在链表尾部增加元素
-      * @param val
-      * @returns {LinkedList}
-      */
-     push(val){
+        while (currentNode !==null && index>=0){
 
-         let currentNode = this.head;
+            currentNode = currentNode.next;
+            index--;
+        }
 
-         while (currentNode.next!==null){
-             currentNode = currentNode.next;
-         }
+        return currentNode;
+    }
 
-         const newNode = new ListNode(val);
-         currentNode.next = newNode;
+    /**
+     * 打印链表
+     */
+    print(){
 
-         return this;
-     }
+        let currentNode = this.head;
 
- }
+        let str ='';
+
+        while (currentNode !== null){
+            str +=`${currentNode.val}-->`;
+            currentNode = currentNode.next;
+        }
+
+        console.log(str+'null');
+
+    }
+
+    /**
+     * 插入新增在index后面
+     * @param newVal
+     * @param index
+     */
+    insert(newVal,index){
+
+        const currentNode = this.findByIndex(index);
+
+        if (currentNode!==null){
+
+            const  newNode = new ListNode(newVal);
+            newNode.next = currentNode.next;
+            currentNode.next = newNode;
 
 
+        } else {
 
- var list = new LinkedList();
+            console.log('未找到插入位置')
+            return
+        }
 
- list.push(0).push(1).push(2).push(3).push(4)
+    }
 
- list.print();
+    /**
+     * 在链表尾部增加元素
+     * @param val
+     * @returns {LinkedList}
+     */
+    push(val){
 
- list.findByValue(2);
+        let currentNode = this.head;
 
- list.findByValue(5);
+        while (currentNode.next!==null){
+            currentNode = currentNode.next;
+        }
 
- list.findByIndex(-1);
+        const newNode = new ListNode(val);
+        currentNode.next = newNode;
 
- list.findByIndex(0);
+        return this;
+    }
 
- list.findByIndex(8);
+    /**
+     * 移除尾部元素
+     */
+    pop(){
 
- list.findByIndex(3);
+        let currentNode = this.head;
+        if (currentNode.next) {
+            while (currentNode.next.next !==null){
+                currentNode = currentNode.next;
+            }
+            currentNode.next = null;
+        }
+    }
 
- list.insert(5,1);
+    /**
+     * 增加val到链表的头部
+     * Add to the front of an LinkedList
+     * @param val
+     */
+    unshift(val){
+        const newNode = new ListNode(val);
+        newNode.next=this.head.next;
+        this.head.next = newNode;
+    }
 
- list.print();
+
+    /**
+     * 移除链表第一个元素
+     * Remove from the front of an LinkedList
+     */
+    shift(){
+        let currentNode = this.head.next;
+        if (currentNode !== null){
+            this.head.next = currentNode.next;
+        }
+    }
+
+}
+
+
+var list = new LinkedList();
+
+list.push(0).push(1).push(2).push(3).push(4)
+
+list.print();
+
+list.findByValue(2);
+
+list.findByValue(5);
+
+list.findByIndex(-1);
+
+list.findByIndex(0);
+
+list.findByIndex(8);
+
+list.findByIndex(3);
+
+list.insert(5,1);
+
+list.print();
+
+list.unshift(-1);
+
+list.unshift(-2);list.print();
+
+list.shift();list.print();
+
+list.pop();list.print();
+
 
