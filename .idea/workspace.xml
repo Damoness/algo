@@ -4,7 +4,6 @@
     <list default="true" id="4fbae4c7-ff85-4a15-8ef9-689a0bd5be00" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js" beforeDir="false" afterPath="$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="06.js" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="06.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="15">
+              <caret line="261" column="14" selection-start-line="261" selection-start-column="2" selection-end-line="261" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="2445">
+              <caret line="163" column="3" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -52,8 +51,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/06_链表(上): 如何轻松写出正确的链表代码?/06.js" />
-        <option value="$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js" />
         <option value="$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js" />
+        <option value="$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js" />
       </list>
     </option>
   </component>
@@ -66,9 +65,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="358" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="161" />
+    <option name="y" value="108" />
     <option name="width" value="1872" />
     <option name="height" value="1057" />
   </component>
@@ -78,28 +77,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="数据结构与算法之美" type="b2602c69:ProjectViewProjectNode" />
-              <item name="数据结构与算法之美" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="数据结构与算法之美" type="b2602c69:ProjectViewProjectNode" />
-              <item name="数据结构与算法之美" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="06_链表(上):如何实现LRU缓存淘汰算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="数据结构与算法之美" type="b2602c69:ProjectViewProjectNode" />
-              <item name="数据结构与算法之美" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="07_链表(下): 如何轻松写出正确的链表代码?" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,34 +135,52 @@
       <option name="presentableId" value="Default" />
       <updated>1542633205593</updated>
       <workItem from="1542633209329" duration="11019000" />
+      <workItem from="1542867699154" duration="524000" />
+      <workItem from="1542869912394" duration="543000" />
+      <workItem from="1542877346727" duration="580000" />
     </task>
+    <task id="LOCAL-00001" summary="06&#10;1.链表新增 pop, unshift,shift等方法">
+      <created>1542852106547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542852106547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="07&#10;4.删除链表倒数第n个结点&#10;5.求链表的中间结点">
+      <created>1542856147666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542856147666</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11019000" />
+    <option name="totallyTimeSpent" value="21916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="23" width="1872" height="1057" extended-state="0" />
+    <frame x="485" y="318" width="1872" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2704918" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +188,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="06&#10;1.链表新增 pop, unshift,shift等方法" />
+    <MESSAGE value="07&#10;4.删除链表倒数第n个结点&#10;5.求链表的中间结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="07&#10;4.删除链表倒数第n个结点&#10;5.求链表的中间结点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,15 +202,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="3915">
+          <caret line="261" column="14" selection-start-line="261" selection-start-column="2" selection-end-line="261" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="2445">
+          <caret line="163" column="3" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="261" column="14" lean-forward="true" selection-start-line="261" selection-start-column="2" selection-end-line="261" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="3" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="307" column="46" lean-forward="true" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="3" lean-forward="true" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="3" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="261" column="14" selection-start-line="261" selection-start-column="2" selection-end-line="261" selection-end-column="14" />
         </state>
       </provider>
     </entry>

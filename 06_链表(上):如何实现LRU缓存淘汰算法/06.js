@@ -35,6 +35,28 @@ class LinkedList {
 
 
     /**
+     * 删除某个结点
+     * @param val
+     * @returns {*}
+     */
+    removeNodeByValue(val){
+
+        let currentNode = this.head;
+
+        while (currentNode.next !==null){
+
+            if (currentNode.next.val  === val){
+                const  res = currentNode.next;
+                currentNode.next = currentNode.next.next;
+                return res;
+            }
+            currentNode = currentNode.next;
+        }
+        return null;
+    }
+
+
+    /**
      * 根据index查找节点
      * @param index
      * @returns {null}
@@ -53,6 +75,7 @@ class LinkedList {
 
         return currentNode;
     }
+
 
     /**
      * 打印链表
@@ -125,7 +148,9 @@ class LinkedList {
             while (currentNode.next.next !==null){
                 currentNode = currentNode.next;
             }
+            const res = currentNode.next;
             currentNode.next = null;
+            return res;
         }
     }
 
@@ -138,6 +163,18 @@ class LinkedList {
         const newNode = new ListNode(val);
         newNode.next=this.head.next;
         this.head.next = newNode;
+    }
+
+
+    /**
+     * 增加结点到头部
+     * @param node : ListNode
+     */
+    addNode(node){
+        if (node!=null){
+            node.next = this.head.next;
+            this.head.next = node;
+        }
     }
 
 
@@ -186,3 +223,122 @@ list.shift();list.print();
 list.pop();list.print();
 
 
+class LRUCache {
+
+    constructor(capacity){
+        this.capacity = capacity;
+        this.num = 0;
+        this.linkedList = new LinkedList();
+    }
+
+    get(key){
+
+        let removedNode  = this.linkedList.removeNodeByValue(key);
+        if(removedNode!==null){
+            this.linkedList.unshift(removedNode.val);
+            //return removedNode.val;
+        }else { //没有找到
+
+            if (this.num <this.capacity){
+                this.linkedList.unshift(key);
+                this.num++;
+            }else {
+                this.linkedList.pop();
+                this.linkedList.unshift(key);
+            }
+        }
+        this.linkedList.print();
+    }
+}
+
+
+let cache1 = new LRUCache(3);
+
+cache1.get(2);
+cache1.get(1);
+cache1.get(2);
+
+
+//146. LRU缓存机制
+//https://leetcode-cn.com/problems/lru-cache/
+class LRUCache2 {
+
+    /**
+     * @param {number} capacity
+     */
+    constructor(capacity){
+        this.capacity = capacity;
+        this.num = 0;
+        this.linkedList = new LinkedList();
+        this.hash={};
+    }
+
+    /**
+     * @param {number} key
+     * @return {number}
+     */
+    get(key){
+        //console.log(JSON.stringify(this.hash))
+        let {node,value}  = this.hash[key]||{};
+        if (node!==undefined){
+            this.linkedList.removeNodeByValue(key);
+            this.linkedList.addNode(node);
+            this.linkedList.print();
+            return value;
+        }else {
+            return -1;
+        }
+    }
+
+    /**
+     * @param {number} key
+     * @param {number} value
+     * @return {void}
+     */
+    put(key,value){
+
+        let {node}  = this.hash[key]||{};
+        if (node!==undefined){
+
+            this.linkedList.removeNodeByValue(key);
+            this.linkedList.addNode(node);
+            this.linkedList.print();
+            return value;
+        } else {
+
+            if (this.num < this.capacity){
+
+                let newNode = new ListNode(key);
+                this.linkedList.addNode(newNode);
+                this.hash[key]={node:newNode,value:value};
+                this.num++;
+
+            } else {
+
+                let result = this.linkedList.pop();
+                delete this.hash[result.val];
+
+                let newNode = new ListNode(key);
+                this.linkedList.addNode(newNode);
+                this.hash[key]={node:newNode,value:value};
+
+            }
+
+            this.linkedList.print();
+
+        }
+
+    }
+
+}
+
+let cache = new LRUCache2(2);
+cache.put(1, 1);
+cache.put(2, 2);
+cache.get(1);       // 返回  1
+cache.put(3, 3);    // 该操作会使得密钥 2 作废
+cache.get(2);       // 返回 -1 (未找到)
+cache.put(4, 4);    // 该操作会使得密钥 1 作废
+cache.get(1);       // 返回 -1 (未找到)
+cache.get(3);       // 返回  3
+cache.get(4);       // 返回  4
