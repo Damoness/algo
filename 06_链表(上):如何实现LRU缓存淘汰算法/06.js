@@ -126,15 +126,12 @@ class LinkedList {
      */
     push(val){
 
-<<<<<<< HEAD
+
         let currentNode = this.head;
 
         while (currentNode.next!==null){
             currentNode = currentNode.next;
         }
-=======
- let list = new LinkedList();
->>>>>>> 21b4e2da1587b6eee7f4b6da2724f1e4ee48fd10
 
         const newNode = new ListNode(val);
         currentNode.next = newNode;
