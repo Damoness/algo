@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/algo.iml" filepath="$PROJECT_DIR$/.idea/algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/数据结构与算法之美.iml" filepath="$PROJECT_DIR$/.idea/数据结构与算法之美.iml" />
     </modules>
   </component>
 </project>
