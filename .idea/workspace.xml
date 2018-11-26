@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff11aeb-66e3-415c-96af-bbcc405e8dc8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_队列：队列在线程池等有限资源池中的应用/09.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +20,7 @@
       <file leaf-file-name="06.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
+            <state relative-caret-position="3135">
               <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
             </state>
           </provider>
@@ -31,7 +29,7 @@
       <file leaf-file-name="question.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/question.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="150">
               <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
@@ -46,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="266" column="3" lean-forward="true" selection-start-line="266" selection-start-column="3" selection-end-line="266" selection-end-column="3" />
+            <state relative-caret-position="2068">
+              <caret line="307" lean-forward="true" selection-start-line="307" selection-end-line="307" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09_队列：队列在线程池等有限资源池中的应用/09.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="228" column="6" lean-forward="true" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -83,6 +90,7 @@
         <option value="$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/8.js" />
         <option value="$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/notes" />
         <option value="$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js" />
+        <option value="$PROJECT_DIR$/09_队列：队列在线程池等有限资源池中的应用/09.js" />
       </list>
     </option>
   </component>
@@ -95,9 +103,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="707" />
+    <option name="y" value="84" />
     <option name="width" value="1872" />
     <option name="height" value="1057" />
   </component>
@@ -109,33 +117,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="数据结构与算法之美" type="cbb8eebc:String" user="数据结构与算法之美" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="数据结构与算法之美" type="cbb8eebc:String" user="数据结构与算法之美" />
-              <item name="06_链表(上):如何实现LRU缓存淘汰算法" type="cbb8eebc:String" user="06_链表(上):如何实现LRU缓存淘汰算法" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="数据结构与算法之美" type="cbb8eebc:String" user="数据结构与算法之美" />
-              <item name="08_栈:如何实现浏览器的前进和后腿" type="cbb8eebc:String" user="08_栈:如何实现浏览器的前进和后腿" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="数据结构与算法之美" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="algo" type="cbb8eebc:String" user="algo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="algo" type="cbb8eebc:String" user="algo" />
+              <item name="08_栈:如何实现浏览器的前进和后腿" type="cbb8eebc:String" user="08_栈:如何实现浏览器的前进和后腿" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="algo" type="cbb8eebc:String" user="algo" />
+              <item name="09_队列：队列在线程池等有限资源池中的应用" type="cbb8eebc:String" user="09_队列：队列在线程池等有限资源池中的应用" />
             </path>
           </expand>
           <select />
@@ -195,6 +203,8 @@
       <workItem from="1542937687619" duration="1363000" />
       <workItem from="1542958063350" duration="90000" />
       <workItem from="1543118809013" duration="21464000" />
+      <workItem from="1543197126132" duration="1470000" />
+      <workItem from="1543205964227" duration="6655000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Damoness/algo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;06_链表(上):如何实现LRU缓存淘汰算法/06.js">
       <created>1542938225674</created>
@@ -207,23 +217,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22927000" />
+    <option name="totallyTimeSpent" value="31052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="24" width="1872" height="1057" extended-state="0" />
+    <frame x="199" y="23" width="1872" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21967213" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -244,6 +254,79 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Damoness/algo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;06_链表(上):如何实现LRU缓存淘汰算法/06.js" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="307" lean-forward="true" selection-start-line="307" selection-end-line="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_队列：队列在线程池等有限资源池中的应用/09.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_链表(下): 如何轻松写出正确的链表代码?/07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="3" lean-forward="true" selection-start-line="266" selection-start-column="3" selection-end-line="266" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
@@ -302,7 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/question.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="150">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
@@ -316,7 +399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06_链表(上):如何实现LRU缓存淘汰算法/06.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
+        <state relative-caret-position="3135">
           <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
         </state>
       </provider>
@@ -330,8 +413,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08_栈:如何实现浏览器的前进和后腿/08.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="266" column="3" lean-forward="true" selection-start-line="266" selection-start-column="3" selection-end-line="266" selection-end-column="3" />
+        <state relative-caret-position="2068">
+          <caret line="307" lean-forward="true" selection-start-line="307" selection-end-line="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_队列：队列在线程池等有限资源池中的应用/09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="228" column="6" lean-forward="true" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
         </state>
       </provider>
     </entry>
